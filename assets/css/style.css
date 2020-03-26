@@ -1,0 +1,54 @@
+body {
+    background-color: #232323;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box {
+    width: 30%;
+    background-color: orange;
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 25%;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.mode {
+    height: 40px;
+    width: 25%;
+    background-color: whitesmoke;
+    outline: none;
+    border-radius: 5%;
+}
+
+.selected {
+    background-color: rgb(255, 237, 75);
+}
+
+#container {
+    width: 380px;
+    height: 126px;
+    margin: 20px auto;
+    border: 3px solid white;
+}
+
+#header {
+    text-align: center;
+    color: white;
+}
+
+#new-game {
+    margin: 10px auto;
+    background-color: rgb(71, 207, 53);
+    outline: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 15%;
+}
+
+#comp-display {
+    background-color: orchid;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+}

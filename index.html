@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RPS game</title>
+    <script src="assets/js/lib/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1>Rock-Paper-Scissors</h1>
+        <h2>player: <span id="player-score">0</span> computer: <span id="comp-score">0</span></h2>
+        <p>computer play: <span id="comp"></span></p>
+        <button id="new-game">Start New Game</button>
+        <div>
+            <button class="mode selected">single player</button><button class="mode">multi player</button>
+        </div>
+        
+    </div>
+
+    <div id="container">
+        <div class="box">Rock</div>
+        <div class="box">Paper</div>
+        <div class="box">Sicssors</div>
+    </div>
+    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
